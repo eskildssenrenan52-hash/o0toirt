@@ -1,0 +1,336 @@
+[
+  {
+    "path": "/overhaul/ultimate.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/hangar.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/pilot.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/defense.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/missiles.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/arena.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/fist.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/attack.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/holo-b.webp",
+    "size": [
+      1000,
+      1000
+    ],
+    "http": 200,
+    "distinctFrames": 25
+  },
+  {
+    "path": "/overhaul/holo-a.webp",
+    "size": [
+      1000,
+      1000
+    ],
+    "http": 200,
+    "distinctFrames": 25
+  },
+  {
+    "path": "/overhaul/items.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/star.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/title.webp",
+    "size": [
+      1088,
+      1920
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/blades.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/repair.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/vortex.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/coliseum.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/systems.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/shield.webp",
+    "size": [
+      256,
+      256
+    ],
+    "http": 200
+  },
+  {
+    "path": "/overhaul/ultimates/cryolance-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/pyrokaiser-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/zephyrblade-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/pyrokaiser-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/voltronin-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/terrabyte-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/acidra-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/cryolance-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/gravitus-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/aurorion-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/ferrovax-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/nullshade-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/voltronin-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/aurorion-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/acidra-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/ferrovax-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/gravitus-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/nullshade-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/zephyrblade-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  },
+  {
+    "path": "/overhaul/ultimates/terrabyte-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "http": 200,
+    "distinctFrames": 10
+  }
+]

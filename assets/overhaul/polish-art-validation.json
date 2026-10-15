@@ -1,0 +1,288 @@
+[
+  {
+    "url": "/launch/loader-a.webp",
+    "size": [
+      1000,
+      1000
+    ],
+    "frames": 25,
+    "distinctFrames": 25,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/launch/remulu-logo.webp",
+    "size": [
+      1024,
+      1024
+    ],
+    "frames": 1,
+    "distinctFrames": 1,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/launch/loader-orbit.webp",
+    "size": [
+      576,
+      1024
+    ],
+    "frames": 1,
+    "distinctFrames": 1,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/launch/loader-city.webp",
+    "size": [
+      576,
+      1024
+    ],
+    "frames": 1,
+    "distinctFrames": 1,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/launch/loader-hangar.webp",
+    "size": [
+      576,
+      1024
+    ],
+    "frames": 1,
+    "distinctFrames": 1,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/launch/loader-b.webp",
+    "size": [
+      1000,
+      1000
+    ],
+    "frames": 25,
+    "distinctFrames": 25,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/cryolance-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/pyrokaiser-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/zephyrblade-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/pyrokaiser-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/voltronin-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/terrabyte-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/acidra-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/cryolance-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/gravitus-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/aurorion-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/ferrovax-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/nullshade-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/voltronin-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/aurorion-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/acidra-ultimate.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/ferrovax-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/gravitus-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/nullshade-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/zephyrblade-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  },
+  {
+    "url": "/overhaul/ultimates/terrabyte-special.webp",
+    "size": [
+      1280,
+      128
+    ],
+    "frames": 10,
+    "distinctFrames": 10,
+    "http": 200,
+    "mime": "image/webp"
+  }
+]
