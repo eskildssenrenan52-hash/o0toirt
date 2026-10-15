@@ -1,0 +1,25 @@
+import assert from "node:assert/strict";
+import { renderToStaticMarkup } from "react-dom/server";
+import { BattleCommands, HOLD_MS } from "../packages/web/src/web/components/battle-commands";
+import { createCombat, ultimateOf } from "../packages/web/src/web/game/combat";
+import { kitOf } from "../packages/web/src/web/game/kits";
+import { existsSync } from "node:fs";
+const robot=(id:string)=>({id,level:1,xp:0,trained:{str:0,def:0,agl:0},borrowed:true});
+const c=createCombat({arena:"hangar",playerTeam:[robot("aurorion")],enemyTeam:[robot("ferrovax")],items:{}});
+const p=c.player.fighters[0];const kit=kitOf(p.robotId);
+const skills=p.skillIds.map(id=>kit.skills.find(s=>s.id===id)!).filter(Boolean);
+const ultimate=ultimateOf(p);
+const props={fighter:p,skills,ultimate,onAction:()=>{},onSelect:()=>{},forecast:()=>null};
+const html=renderToStaticMarkup(<BattleCommands {...props}/>);
+assert(!html.includes("holo-"));
+for(const cat of ["attack","defense","ultimate","items","swap","tactics"])assert(html.includes(`data-testid="cat-${cat}"`),cat);
+assert.equal((html.match(/class="mc-cat[ "]/g)??[]).length,6,"6 esferas de categoria");
+assert(html.includes("TOQUE EM UMA ESFERA"),"bandeja fechada até escolher categoria");
+assert(!html.includes("mc-opt-orb"),"opções só aparecem depois do toque");
+assert.equal(HOLD_MS,2000,"segurar 2s");
+assert(!/>\s*AUTO\s*</.test(html)&&!html.includes("AUTO "),"AUTO removido do console");
+const pvp=renderToStaticMarkup(<BattleCommands {...props} competitive/>);
+assert(!pvp.includes("cat-items"),"competitivo sem itens");assert(pvp.includes("cat-swap")&&pvp.includes("cat-ultimate"));
+for(const n of ["attack","defend","ultimate","items","swap","tactics","fist","fist2","blades","missiles","rocket","vortex","repair","strike","cycle","info"])
+  assert(existsSync(`packages/web/public/orbs/${n}.webp`),n);
+console.log("PASS: orb command console — 6 category orbs, options hidden until opened, 2s hold, info orbs, art present, competitive without items, no AUTO. No browser gameplay tests.");

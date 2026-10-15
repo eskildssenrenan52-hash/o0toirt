@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.appId.runable",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#040912"
+      },
+      "edgeToEdgeEnabled": true,
+      "navigationBarColor": "#040912"
+    },
+    "extra": {
+      "apiUrl": "https://campeoe-xwr5e13-preview-4200.runable.site/",
+      "applicationId": "campeoe-xwr5e13",
+      "runableAuthIssuer": "https://api.runable.com/api/auth"
+    },
+    "ios": {
+      "bundleIdentifier": "com.appId.runable",
+      "supportsTablet": true
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#040912"
+    },
+    "name": "Campeões Mecha",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "scheme": "runable-campeoe-xwr5e13",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "backgroundColor": "#040912"
+  }
+}
